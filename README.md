@@ -60,6 +60,12 @@ The comparative analysis of different models highlights their effectiveness in c
 |BERT|87|86|85|85|
 |Robert|91|90|89|90|
 
+|Model Type|Training Epochs|Final Trainig Accuracy|Final validation Accuracy|Convergence Speed|
+| --- | --- |--- |--- | --- |
+|Convolutional Neural Network (CNN)|10|0.6685|1.0000|Fast|
+|Long Short-Term Memory (LSTM)|12|0.4695|0.7613|Medium|
+|Bilstm|15|~0.35|0.75|Slow|
+
 **Conclusion:**
 
 In an era where customer service interactions are rapidly increasing, the need for efficient sentiment detection has become more critical than ever. This project successfully addresses the challenges of manual query classification by implementing an automated sentiment detection system that categorizes interactions into frustrated, satisfied, and neutral sentiments. By leveraging advanced NLP techniques and state-of-the-art ML and DL models, including transformer-based architectures like BERT, the system enhances the accuracy of sentiment classification, ensuring timely and effective customer support responses.
